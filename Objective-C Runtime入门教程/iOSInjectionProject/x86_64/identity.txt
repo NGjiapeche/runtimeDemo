@@ -1,0 +1,2 @@
+/Users/pilotlabhome_jiangpc/Library/Developer/Xcode/DerivedData/Objective-C_Runtime入门教程-gmcqkmkqalijijcsuntqprsitkou/Build/Products/Debug-iphonesimulator/Objective-C Runtime入门教程.app
+

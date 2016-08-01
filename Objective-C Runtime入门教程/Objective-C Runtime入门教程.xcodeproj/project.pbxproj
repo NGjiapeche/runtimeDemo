@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF39F78C1C9A7621002163E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39F78B1C9A7621002163E1 /* main.m */; };
+		EF39F78F1C9A7621002163E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39F78E1C9A7621002163E1 /* AppDelegate.m */; };
+		EF39F7921C9A7621002163E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39F7911C9A7621002163E1 /* ViewController.m */; };
+		EF39F7951C9A7621002163E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF39F7931C9A7621002163E1 /* Main.storyboard */; };
+		EF39F7971C9A7621002163E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF39F7961C9A7621002163E1 /* Assets.xcassets */; };
+		EF39F79A1C9A7621002163E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF39F7981C9A7621002163E1 /* LaunchScreen.storyboard */; };
+		EF39F7A51C9A7621002163E1 /* Objective_C_Runtime____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39F7A41C9A7621002163E1 /* Objective_C_Runtime____Tests.m */; };
+		EF39F7B01C9A7621002163E1 /* Objective_C_Runtime____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39F7AF1C9A7621002163E1 /* Objective_C_Runtime____UITests.m */; };
+		EF665A601C9A8831004D1129 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = EF665A5F1C9A8831004D1129 /* People.m */; };
+		EF665A661C9A9494004D1129 /* People+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = EF665A651C9A9494004D1129 /* People+Associated.m */; };
+		EF665A691C9AA4A1004D1129 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = EF665A681C9AA4A1004D1129 /* Bird.m */; };
+		EF8C3ACD1CA1212600C43720 /* ViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8C3ACC1CA1212600C43720 /* ViewController+Swizzling.m */; };
+		EF8C3AD01CA12AC800C43720 /* NSArray+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8C3ACF1CA12AC800C43720 /* NSArray+Swizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF39F7A11C9A7621002163E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF39F77F1C9A7621002163E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF39F7861C9A7621002163E1;
+			remoteInfo = "Objective-C Runtime入门教程";
+		};
+		EF39F7AC1C9A7621002163E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF39F77F1C9A7621002163E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF39F7861C9A7621002163E1;
+			remoteInfo = "Objective-C Runtime入门教程";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF39F7871C9A7621002163E1 /* Objective-C Runtime入门教程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C Runtime入门教程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF39F78B1C9A7621002163E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF39F78D1C9A7621002163E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF39F78E1C9A7621002163E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF39F7901C9A7621002163E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF39F7911C9A7621002163E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF39F7941C9A7621002163E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF39F7961C9A7621002163E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF39F7991C9A7621002163E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF39F79B1C9A7621002163E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF39F7A01C9A7621002163E1 /* Objective-C Runtime入门教程Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C Runtime入门教程Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF39F7A41C9A7621002163E1 /* Objective_C_Runtime____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Objective_C_Runtime____Tests.m"; sourceTree = "<group>"; };
+		EF39F7A61C9A7621002163E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF39F7AB1C9A7621002163E1 /* Objective-C Runtime入门教程UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C Runtime入门教程UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF39F7AF1C9A7621002163E1 /* Objective_C_Runtime____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Objective_C_Runtime____UITests.m"; sourceTree = "<group>"; };
+		EF39F7B11C9A7621002163E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF665A5E1C9A8831004D1129 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		EF665A5F1C9A8831004D1129 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		EF665A641C9A9494004D1129 /* People+Associated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "People+Associated.h"; path = "../People+Associated.h"; sourceTree = "<group>"; };
+		EF665A651C9A9494004D1129 /* People+Associated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "People+Associated.m"; path = "../People+Associated.m"; sourceTree = "<group>"; };
+		EF665A671C9AA4A1004D1129 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		EF665A681C9AA4A1004D1129 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		EF8C3ACB1CA1212600C43720 /* ViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+Swizzling.h"; sourceTree = "<group>"; };
+		EF8C3ACC1CA1212600C43720 /* ViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Swizzling.m"; sourceTree = "<group>"; };
+		EF8C3ACE1CA12AC800C43720 /* NSArray+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Swizzle.h"; sourceTree = "<group>"; };
+		EF8C3ACF1CA12AC800C43720 /* NSArray+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF39F7841C9A7621002163E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39F79D1C9A7621002163E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39F7A81C9A7621002163E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF39F77E1C9A7621002163E1 = {
+			isa = PBXGroup;
+			children = (
+				EF39F7891C9A7621002163E1 /* Objective-C Runtime入门教程 */,
+				EF39F7A31C9A7621002163E1 /* Objective-C Runtime入门教程Tests */,
+				EF39F7AE1C9A7621002163E1 /* Objective-C Runtime入门教程UITests */,
+				EF39F7881C9A7621002163E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF39F7881C9A7621002163E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF39F7871C9A7621002163E1 /* Objective-C Runtime入门教程.app */,
+				EF39F7A01C9A7621002163E1 /* Objective-C Runtime入门教程Tests.xctest */,
+				EF39F7AB1C9A7621002163E1 /* Objective-C Runtime入门教程UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF39F7891C9A7621002163E1 /* Objective-C Runtime入门教程 */ = {
+			isa = PBXGroup;
+			children = (
+				EF39F78D1C9A7621002163E1 /* AppDelegate.h */,
+				EF39F78E1C9A7621002163E1 /* AppDelegate.m */,
+				EF39F7901C9A7621002163E1 /* ViewController.h */,
+				EF39F7911C9A7621002163E1 /* ViewController.m */,
+				EF665A5E1C9A8831004D1129 /* People.h */,
+				EF665A5F1C9A8831004D1129 /* People.m */,
+				EF665A671C9AA4A1004D1129 /* Bird.h */,
+				EF665A681C9AA4A1004D1129 /* Bird.m */,
+				EF665A641C9A9494004D1129 /* People+Associated.h */,
+				EF665A651C9A9494004D1129 /* People+Associated.m */,
+				EF8C3ACB1CA1212600C43720 /* ViewController+Swizzling.h */,
+				EF8C3ACC1CA1212600C43720 /* ViewController+Swizzling.m */,
+				EF8C3ACE1CA12AC800C43720 /* NSArray+Swizzle.h */,
+				EF8C3ACF1CA12AC800C43720 /* NSArray+Swizzle.m */,
+				EF39F7931C9A7621002163E1 /* Main.storyboard */,
+				EF39F7961C9A7621002163E1 /* Assets.xcassets */,
+				EF39F7981C9A7621002163E1 /* LaunchScreen.storyboard */,
+				EF39F79B1C9A7621002163E1 /* Info.plist */,
+				EF39F78A1C9A7621002163E1 /* Supporting Files */,
+			);
+			path = "Objective-C Runtime入门教程";
+			sourceTree = "<group>";
+		};
+		EF39F78A1C9A7621002163E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF39F78B1C9A7621002163E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF39F7A31C9A7621002163E1 /* Objective-C Runtime入门教程Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF39F7A41C9A7621002163E1 /* Objective_C_Runtime____Tests.m */,
+				EF39F7A61C9A7621002163E1 /* Info.plist */,
+			);
+			path = "Objective-C Runtime入门教程Tests";
+			sourceTree = "<group>";
+		};
+		EF39F7AE1C9A7621002163E1 /* Objective-C Runtime入门教程UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF39F7AF1C9A7621002163E1 /* Objective_C_Runtime____UITests.m */,
+				EF39F7B11C9A7621002163E1 /* Info.plist */,
+			);
+			path = "Objective-C Runtime入门教程UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF39F7861C9A7621002163E1 /* Objective-C Runtime入门教程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF39F7B41C9A7621002163E1 /* Build configuration list for PBXNativeTarget "Objective-C Runtime入门教程" */;
+			buildPhases = (
+				EF39F7831C9A7621002163E1 /* Sources */,
+				EF39F7841C9A7621002163E1 /* Frameworks */,
+				EF39F7851C9A7621002163E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objective-C Runtime入门教程";
+			productName = "Objective-C Runtime入门教程";
+			productReference = EF39F7871C9A7621002163E1 /* Objective-C Runtime入门教程.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF39F79F1C9A7621002163E1 /* Objective-C Runtime入门教程Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF39F7B71C9A7621002163E1 /* Build configuration list for PBXNativeTarget "Objective-C Runtime入门教程Tests" */;
+			buildPhases = (
+				EF39F79C1C9A7621002163E1 /* Sources */,
+				EF39F79D1C9A7621002163E1 /* Frameworks */,
+				EF39F79E1C9A7621002163E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF39F7A21C9A7621002163E1 /* PBXTargetDependency */,
+			);
+			name = "Objective-C Runtime入门教程Tests";
+			productName = "Objective-C Runtime入门教程Tests";
+			productReference = EF39F7A01C9A7621002163E1 /* Objective-C Runtime入门教程Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF39F7AA1C9A7621002163E1 /* Objective-C Runtime入门教程UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF39F7BA1C9A7621002163E1 /* Build configuration list for PBXNativeTarget "Objective-C Runtime入门教程UITests" */;
+			buildPhases = (
+				EF39F7A71C9A7621002163E1 /* Sources */,
+				EF39F7A81C9A7621002163E1 /* Frameworks */,
+				EF39F7A91C9A7621002163E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF39F7AD1C9A7621002163E1 /* PBXTargetDependency */,
+			);
+			name = "Objective-C Runtime入门教程UITests";
+			productName = "Objective-C Runtime入门教程UITests";
+			productReference = EF39F7AB1C9A7621002163E1 /* Objective-C Runtime入门教程UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF39F77F1C9A7621002163E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PilotLabHome;
+				TargetAttributes = {
+					EF39F7861C9A7621002163E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EF39F79F1C9A7621002163E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EF39F7861C9A7621002163E1;
+					};
+					EF39F7AA1C9A7621002163E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EF39F7861C9A7621002163E1;
+					};
+				};
+			};
+			buildConfigurationList = EF39F7821C9A7621002163E1 /* Build configuration list for PBXProject "Objective-C Runtime入门教程" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF39F77E1C9A7621002163E1;
+			productRefGroup = EF39F7881C9A7621002163E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF39F7861C9A7621002163E1 /* Objective-C Runtime入门教程 */,
+				EF39F79F1C9A7621002163E1 /* Objective-C Runtime入门教程Tests */,
+				EF39F7AA1C9A7621002163E1 /* Objective-C Runtime入门教程UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF39F7851C9A7621002163E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF39F79A1C9A7621002163E1 /* LaunchScreen.storyboard in Resources */,
+				EF39F7971C9A7621002163E1 /* Assets.xcassets in Resources */,
+				EF39F7951C9A7621002163E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39F79E1C9A7621002163E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39F7A91C9A7621002163E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF39F7831C9A7621002163E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8C3ACD1CA1212600C43720 /* ViewController+Swizzling.m in Sources */,
+				EF665A601C9A8831004D1129 /* People.m in Sources */,
+				EF665A661C9A9494004D1129 /* People+Associated.m in Sources */,
+				EF665A691C9AA4A1004D1129 /* Bird.m in Sources */,
+				EF39F7921C9A7621002163E1 /* ViewController.m in Sources */,
+				EF39F78F1C9A7621002163E1 /* AppDelegate.m in Sources */,
+				EF39F78C1C9A7621002163E1 /* main.m in Sources */,
+				EF8C3AD01CA12AC800C43720 /* NSArray+Swizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39F79C1C9A7621002163E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF39F7A51C9A7621002163E1 /* Objective_C_Runtime____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39F7A71C9A7621002163E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF39F7B01C9A7621002163E1 /* Objective_C_Runtime____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF39F7A21C9A7621002163E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF39F7861C9A7621002163E1 /* Objective-C Runtime入门教程 */;
+			targetProxy = EF39F7A11C9A7621002163E1 /* PBXContainerItemProxy */;
+		};
+		EF39F7AD1C9A7621002163E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF39F7861C9A7621002163E1 /* Objective-C Runtime入门教程 */;
+			targetProxy = EF39F7AC1C9A7621002163E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF39F7931C9A7621002163E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF39F7941C9A7621002163E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF39F7981C9A7621002163E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF39F7991C9A7621002163E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF39F7B21C9A7621002163E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF39F7B31C9A7621002163E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF39F7B51C9A7621002163E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Objective-C Runtime入门教程/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilot.Objective-C-Runtime----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF39F7B61C9A7621002163E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Objective-C Runtime入门教程/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilot.Objective-C-Runtime----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF39F7B81C9A7621002163E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Objective-C Runtime入门教程Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilot.Objective-C-Runtime----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C Runtime入门教程.app/Objective-C Runtime入门教程";
+			};
+			name = Debug;
+		};
+		EF39F7B91C9A7621002163E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Objective-C Runtime入门教程Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilot.Objective-C-Runtime----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C Runtime入门教程.app/Objective-C Runtime入门教程";
+			};
+			name = Release;
+		};
+		EF39F7BB1C9A7621002163E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Objective-C Runtime入门教程UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilot.Objective-C-Runtime----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Objective-C Runtime入门教程";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF39F7BC1C9A7621002163E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Objective-C Runtime入门教程UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilot.Objective-C-Runtime----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Objective-C Runtime入门教程";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF39F7821C9A7621002163E1 /* Build configuration list for PBXProject "Objective-C Runtime入门教程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF39F7B21C9A7621002163E1 /* Debug */,
+				EF39F7B31C9A7621002163E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF39F7B41C9A7621002163E1 /* Build configuration list for PBXNativeTarget "Objective-C Runtime入门教程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF39F7B51C9A7621002163E1 /* Debug */,
+				EF39F7B61C9A7621002163E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF39F7B71C9A7621002163E1 /* Build configuration list for PBXNativeTarget "Objective-C Runtime入门教程Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF39F7B81C9A7621002163E1 /* Debug */,
+				EF39F7B91C9A7621002163E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF39F7BA1C9A7621002163E1 /* Build configuration list for PBXNativeTarget "Objective-C Runtime入门教程UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF39F7BB1C9A7621002163E1 /* Debug */,
+				EF39F7BC1C9A7621002163E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF39F77F1C9A7621002163E1 /* Project object */;
+}
